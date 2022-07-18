@@ -34,7 +34,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Kiakaha\\ChargilyPlugin\\": "Plugin/KiakahaChargilyPlugin/src/"
+            "Kiakaha\\ChargilyPlugin\\": "src/"
         }
     },
     "autoload-dev": {
