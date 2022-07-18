@@ -1,0 +1,15 @@
+kiakaha:
+    chargily_plugin:
+        environment: البيئة
+        secure: التشغيل
+        sandbox: التجربة
+        merchant_identifier: معرف التاجر
+        hash_algorithm: خوارزمية التجزئة
+        access_code: رمز الوصول
+        request_sha_phrase: عبارة طلب تشفير (SHA)
+        response_sha_phrase: عبارة رد تشفير (SHA)
+        gateway_label: بوابة chargily
+        api_key: api_key_en
+        api_secret: api_secret_en
+        invoice_details: invoice_details
+        base_url: base_url

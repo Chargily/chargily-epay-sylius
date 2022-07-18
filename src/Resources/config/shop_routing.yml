@@ -1,0 +1,5 @@
+shopro_show_invoice_shop_pdf:
+    path: '/chargily/response/{OrderNumber}'
+    methods: [ 'POST' ]
+    defaults:
+        _controller: app.hello_controller:renderPdfAction
