@@ -6,13 +6,13 @@ Sylius Plugin for Chargily ePay Gateway
 # Installation
 1. Via Composer (Recomended)
 ```bash
-composer require chargily/epay-php
+composer require kiakaha/chargily-plugin
 ```
 
 # Configurations
-![Configurations Screenshot 1](https://github.com/kiakahaDZ/chargily-epay-sylius/assets/Screenshot_1.png "Configurations Screenshot 1")
+![Configurations Screenshot 1](https://raw.githubusercontent.com/kiakahaDZ/chargily-epay-sylius/main/assets/Screenshot_1.png "Chargily ePay Gateway")
 
-![Configurations Screenshot 2](https://github.com/kiakahaDZ/chargily-epay-sylius/assets/Screenshot_2.png "Configurations Screenshot 2")
+![Configurations Screenshot 2](https://raw.githubusercontent.com/kiakahaDZ/chargily-epay-sylius/main/assets/Screenshot_2.png "Chargily ePay Gateway")
 
 This Plugin is to integrate ePayment gateway with Chargily easily.
 - Currently support payment by **CIB / EDAHABIA** cards and soon by **Visa / Mastercard** 
