@@ -1,5 +1,5 @@
 {
-    "name": "kiakaha/chargily-plugin",
+    "name": "chargily/epay-sylius",
     "type": "chargily-sylius-plugin",
     "description": "Chargily plugin for Sylius.",
     "license": "MIT",
