@@ -3,6 +3,41 @@ Sylius Plugin for Chargily ePay Gateway
 
 ![Chargily ePay Gateway](https://raw.githubusercontent.com/Chargily/epay-gateway-php/main/assets/banner-1544x500.png "Chargily ePay Gateway")
 
+# Installation
+1. Via Composer (Recomended)
+```bash
+composer require kiakaha/chargily-plugin
+```
+
+2. Register the bundle, add this line at the end of the file config/bundles.php 
+```bash
+\Kiakaha\ChargilyPlugin\KiakahaChargilyPlugin::class => ['all' => true],
+```
+
+3. Import the services, Add the follow line in config/services.yml
+```bash
+imports:
+    - { resource: "@KiakahaChargilyPlugin/Resources/config/services.yml" }
+```
+
+4. Import the routes, Add the follow line in config/routes/sylius_shop.yml
+```bash
+sylius_shop_chargily:
+    resource: "@KiakahaChargilyPlugin/Resources/config/shop_routing.yml" 
+   ```
+4. Clear the cache
+```bash
+php bin/console cache:clear
+```
+
+- Download the latest release
+[Chargily Sylius Plugin](https://github.com/kiakahaDZ/chargily-epay-sylius/archive/refs/tags/v1.0.1.zip)
+
+# Configurations
+![Configurations Screenshot 1](https://raw.githubusercontent.com/kiakahaDZ/chargily-epay-sylius/main/assets/Screenshot_1.png "Chargily ePay Gateway")
+
+![Configurations Screenshot 2](https://raw.githubusercontent.com/kiakahaDZ/chargily-epay-sylius/main/assets/Screenshot_2.png "Chargily ePay Gateway")
+
 This Plugin is to integrate ePayment gateway with Chargily easily.
 - Currently support payment by **CIB / EDAHABIA** cards and soon by **Visa / Mastercard** 
 - This repo is recently created for **Sylius Plugin**, If you are a developer and want to collaborate to the development of this plugin, you are welcomed!
