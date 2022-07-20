@@ -6,7 +6,7 @@ Sylius Plugin for Chargily ePay Gateway
 # Installation
 1. Via Composer (Recomended)
 ```bash
-composer require kiakaha/chargily-plugin
+composer require chargily/epay-sylius
 ```
 
 2. Register the bundle, add this line at the end of the file config/bundles.php 
