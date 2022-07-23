@@ -4,8 +4,8 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
         <defaults public="true"/>
-        <service id="Kiakaha\ChargilyPlugin\Controller\InvoiceController"
-                 class="Kiakaha\ChargilyPlugin\Controller\InvoiceController" autowire="true" autoconfigure="true"
+        <service id="Chargily\EpayPlugin\Controller\InvoiceController"
+                 class="Chargily\EpayPlugin\Controller\InvoiceController" autowire="true" autoconfigure="true"
                  public="true">
         </service>
     </services>

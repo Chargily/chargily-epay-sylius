@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiakaha\ChargilyPlugin\Controller;
+namespace Chargily\EpayPlugin\Controller;
 
 use Sylius\Component\Core\Model\PaymentInterface;
 use Sylius\Component\Core\Model\PaymentMethod;

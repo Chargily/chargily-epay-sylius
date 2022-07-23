@@ -6,7 +6,7 @@
  * Time: 12:32 PM
  */
 
-namespace Kiakaha\ChargilyPlugin\Exception;
+namespace Chargily\EpayPlugin\Exception;
 
 use Payum\Core\Exception\Http\HttpException;
 

@@ -6,25 +6,25 @@ Sylius Plugin for Chargily ePay Gateway
 # Installation
 1. Via Composer (Recomended)
 ```bash
-composer require kiakaha/chargily-plugin
+composer require chargily/epay-sylius
 ```
 
 2. Register the bundle, add this line at the end of the file config/bundles.php 
 ```bash
-\Kiakaha\ChargilyPlugin\KiakahaChargilyPlugin::class => ['all' => true],
+Chargily\EpayPlugin\ChargilyEpayPlugin::class => ['all' => true],
 ```
 
 3. Import the services, Add the follow line in config/services.yml
 ```bash
 imports:
-    - { resource: "@KiakahaChargilyPlugin/Resources/config/services.yml" }
+    - { resource: "@ChargilyEpayPlugin/Resources/config/services.yml" }
 ```
 
 4. Import the routes, Add the follow line in config/routes/sylius_shop.yml
 ```bash
 sylius_shop_chargily:
-    resource: "@KiakahaChargilyPlugin/Resources/config/shop_routing.yml" 
-   ```
+    resource: "@ChargilyEpayPlugin/Resources/config/shop_routing.yml"
+```
 4. Clear the cache
 ```bash
 php bin/console cache:clear

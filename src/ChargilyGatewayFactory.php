@@ -9,8 +9,8 @@
 
 
 
-namespace Kiakaha\ChargilyPlugin;
-use Kiakaha\ChargilyPlugin\Action\ChargilyAction;
+namespace Chargily\EpayPlugin;
+use Chargily\EpayPlugin\Action\ChargilyAction;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\GatewayFactory;
 
