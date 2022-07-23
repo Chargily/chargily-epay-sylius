@@ -6,7 +6,7 @@
  * Time: 1:57 AM
  */
 
-namespace Kiakaha\ChargilyPlugin\Request;
+namespace Chargily\EpayPlugin\Request;
 
 class Constants
 {

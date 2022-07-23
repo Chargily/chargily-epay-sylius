@@ -6,7 +6,7 @@
  * Time: 1:48 AM
  */
 
-namespace Kiakaha\ChargilyPlugin\Request\Api;
+namespace Chargily\EpayPlugin\Request\Api;
 
 use Payum\Core\Request\Generic;
 

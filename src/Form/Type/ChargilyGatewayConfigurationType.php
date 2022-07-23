@@ -6,7 +6,7 @@
  * Time: 12:32 PM
  */
 
-namespace Kiakaha\ChargilyPlugin\Form\Type;
+namespace Chargily\EpayPlugin\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;

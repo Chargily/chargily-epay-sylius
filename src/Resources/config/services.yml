@@ -1,25 +1,25 @@
 services:
     kiakaha.chargily_plugin.form.type.gateway_configuration:
-        class: Kiakaha\ChargilyPlugin\Form\Type\ChargilyGatewayConfigurationType
+        class: Chargily\EpayPlugin\Form\Type\ChargilyGatewayConfigurationType
         tags:
             - { name: sylius.gateway_configuration_type, type: chargily, label: Chargily }
             - { name: form.type }
 
     kiakaha.chargily_plugin.gateway_factory:
         class: Payum\Core\Bridge\Symfony\Builder\GatewayFactoryBuilder
-        arguments: [Kiakaha\ChargilyPlugin\ChargilyGatewayFactory]
+        arguments: [Chargily\EpayPlugin\ChargilyGatewayFactory]
         tags:
             - { name: payum.gateway_factory_builder, factory: chargily }
     
     kiakaha.chargily_plugin.payfort_action:
-        class: Kiakaha\ChargilyPlugin\Action\ChargilyAction
+        class: Chargily\EpayPlugin\Action\ChargilyAction
         arguments: ['@sylius.repository.order']
         tags:
             - { name: payum.action, factory: chargily, alias: payum.action.set_payfort }
         public: true
     
     app.hello_controller:
-        class: Kiakaha\ChargilyPlugin\Controller\InvoiceController
+        class: Chargily\EpayPlugin\Controller\InvoiceController
         public: true
         tags: [ controller.service_arguments ]
         calls:

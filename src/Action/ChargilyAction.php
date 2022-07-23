@@ -6,7 +6,7 @@
  * Time: 12:32 PM
  */
 
-namespace Kiakaha\ChargilyPlugin\Action;
+namespace Chargily\EpayPlugin\Action;
 
 use App\Entity\Order\Order;
 
